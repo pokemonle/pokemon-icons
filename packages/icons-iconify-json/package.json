@@ -1,0 +1,41 @@
+{
+	"name": "@pokemonle/icons-iconify-json",
+	"version": "0.0.1",
+	"description": "Iconify JSON Icons for Open Web",
+	"license": "MIT",
+	"scripts": {
+		"build": "node ./scripts/build.mjs"
+	},
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"require": "./dist/index.js",
+			"import": "./dist/index.mjs"
+		},
+		"./icons.json": "./dist/icons.json",
+		"./info.json": "./dist/info.json"
+	},
+	"iconSet": {
+		"icons": "./dist/icons.json",
+		"info": "./dist/info.json"
+	},
+	"files": ["dist"],
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"@iconify/types": "^2.0.0"
+	},
+	"devDependencies": {
+		"@iconify/tools": "^4.0.7"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pokemonle/pokemon-icons.git",
+		"directory": "packages/icons-iconify-json"
+	},
+	"homepage": "https://icons.pokemonle.com",
+	"bugs": {
+		"url": "https://github.com/pokemonle/pokemon-icons/issues"
+	}
+}

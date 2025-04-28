@@ -1,0 +1,13 @@
+{
+	"$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+	"files": {
+		"ignore": [
+			"./apps/docs/docs/dist/**/*",
+			"./packages/*/dist/**/*",
+			"./packages/icons-react/src/icons/**",
+			"./packages/icons-vue/src/icons/**",
+			"./packages/icons-svelte/.svelte-kit/**",
+			"./packages/icons-svg/icons/**"
+		]
+	}
+}

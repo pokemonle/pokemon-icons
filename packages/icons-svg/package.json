@@ -1,0 +1,22 @@
+{
+	"name": "@pokemonle/icons-svg",
+	"version": "0.0.1",
+	"description": "Svg Icons for Pokemon",
+	"license": "MIT",
+	"scripts": {
+		"build": "node ./scripts/build.mjs"
+	},
+	"files": ["icons"],
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pokemonle/pokemon-icons.git",
+		"directory": "packages/icons-svg"
+	},
+	"homepage": "https://icons.pokemonle.com",
+	"bugs": {
+		"url": "https://github.com/pokemonle/pokemon-icons/issues"
+	}
+}

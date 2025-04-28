@@ -1,0 +1,26 @@
+{
+	"name": "@pokemonle/pokemon-icons-monorepo",
+	"private": true,
+	"version": "0.0.1",
+	"description": "Icons for Pokemon",
+	"license": "MIT",
+	"scripts": {
+		"build": "pnpm -r --filter='./packages/*' run build",
+		"dev:docs": "pnpm -r --filter='./apps/docs' run dev",
+		"postinstall": "node ./scripts/optimize-icons.mjs",
+		"lint": "biome check .",
+		"lint:fix": "biome check . --write",
+		"release": "bumpp -r"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
+		"@types/node": "^22.8.7",
+		"bumpp": "^9.8.1",
+		"svgo": "^3.3.2",
+		"svgpath": "^2.6.0",
+		"svgson": "^5.3.1",
+		"tsup": "^8.3.5",
+		"typescript": "^5.6.3"
+	},
+	"packageManager": "pnpm@9.12.3"
+}

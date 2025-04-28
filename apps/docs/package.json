@@ -1,0 +1,22 @@
+{
+	"name": "@pokemonle/icons-docs",
+	"version": "0.0.1",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "vocs build",
+		"dev": "vocs dev",
+		"postinstall": "cd ../../ && pnpm run build && cd -",
+		"preview": "vocs preview"
+	},
+	"dependencies": {
+		"@radix-ui/react-dialog": "^1.1.2",
+		"@radix-ui/react-toast": "^1.2.2",
+		"@types/react": "^18.3.12",
+		"@pokemonle/icons-react": "workspace:^",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"typescript": "^5.6.3",
+		"vocs": "^1.0.0-alpha.55"
+	}
+}
