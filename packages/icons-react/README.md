@@ -9,9 +9,9 @@ npm install @pokemonle/icons-react
 ## Usage
 
 ```jsx
-import { IconBitcoin } from '@pokemonle/icons-react'
+import { IconBug } from '@pokemonle/icons-react'
 
 const App = () => {
-  return <IconBitcoin />
+  return <IconBug />
 }
 ```

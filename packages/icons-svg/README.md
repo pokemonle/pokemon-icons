@@ -3,7 +3,7 @@
 ## Install
 
 ```bash
-npm install @webisopen/icons-svg
+npm install @pokemonle/icons-svg
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ npm install @webisopen/icons-svg
 
 ```html
 <img
-	src="https://unpkg.com/@webisopen/icons-svg@latest/icons/bitcoin.svg"
+	src="https://unpkg.com/@pokemonle/icons-svg@latest/icons/bug.svg"
 	alt="icon title"
 />
 ```

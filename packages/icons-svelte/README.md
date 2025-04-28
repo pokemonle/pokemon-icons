@@ -3,15 +3,15 @@
 ## Install
 
 ```bash
-npm install @webisopen/icons-svelte
+npm install @pokemonle/icons-svelte
 ```
 
 ## Usage
 
 ```svelte
 <script>
-import { IconBitcoin } from '@webisopen/icons-svelte'
+import { IconBug } from '@pokemonle/icons-svelte'
 </script>
 
-<IconBitcoin />
+<IconBug />
 ```
