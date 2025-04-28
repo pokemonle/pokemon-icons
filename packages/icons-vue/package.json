@@ -1,6 +1,6 @@
 {
 	"name": "@pokemonle/icons-vue",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"description": "Vue Icons for Pokemon",
 	"license": "MIT",
 	"exports": {
