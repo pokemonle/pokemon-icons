@@ -1,7 +1,7 @@
 import { defineConfig } from "vocs";
 
 export default defineConfig({
-	title: "Pokemonle Icons",
+	title: "Pokemon Icons",
 	sidebar: [
 		{
 			text: "Getting Started",
